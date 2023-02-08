@@ -7,6 +7,8 @@ import HITindex_classify_mainfn as hitmain
 
 class args:
     def __init__(self, junctionReads, bam, juncbam, readstrand, HITindex, bed, classify, calculatePSI, outname):
+        
+#         Hitindex default params
         self.junctionReads = junctionReads
         self.bam = bam
         self.juncbam = juncbam
@@ -35,6 +37,7 @@ print(len(bam_files_list), "files detected")
 
 print("Number of computed files: ", len(computed_files))
 
+# Run hitindex classification script on all samples (bam) files
 for i, f in enumerate(bam_files_list):
     sample_name = f.split("_chr1.bam")[0]
     if not sample_name + "_HITindex.exon" in computed_files:
