@@ -19,5 +19,5 @@ This repo contains the processing scripts used to run the experiment
 5. create_sample_annot.ipynb -> contains script used to create `sample annotations` table which is provided as input to run DROP
 
 ## Results
-Results can be found in the project report [https://drive.google.com/file/d/1k_b-WpeVq29PX1420Qi7_qoKFTrNKp3R/view?usp=share_link]
+Results can be found in the project report [https://drive.google.com/file/d/1rpfH4wPCbdZFLwzXBRgHqxYMfqHyF0y7/view?usp=sharing]
 
